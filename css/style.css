@@ -1,0 +1,22 @@
+/* -------REGOLE GENERALI------ */
+
+* {
+
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+[class*="col-"] {
+  min-height: 200px;
+  background-color:#ffc0cb;
+  border:1px solid black;
+}
+
+h5 {
+
+  line-height: 200px;
+  text-align: center;
+
+}
