@@ -8,6 +8,13 @@
 
 }
 
+.container {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
 /* regole per ogni colonna */
 
 [class*="col-"] {
