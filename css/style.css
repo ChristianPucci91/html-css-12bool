@@ -8,28 +8,37 @@
 
 }
 
+/* regole per ogni colonna */
+
 [class*="col-"] {
+
+  position: relative;
   min-height: 200px;
   background-color:#ffc0cb;
   border:1px solid black;
-}
-
-h5 {
-
-  line-height: 200px;
-  text-align: center;
 
 }
+
+span {
+
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate( -50% , -50% );
+  font-size: 20px;
+}
+
+/* comandi per colonne Nested */
 
 #redbox {
 
-  padding:10px;
+  padding:5px;
 
 }
 
 #redbox > .col-2,#redbox > .col-8, #redbox .col-6 {
 
- background-color: red;
+ background-color:#f07f80;
  border: 1px solid white;
 
 }
