@@ -21,10 +21,15 @@ h5 {
 
 }
 
-#indoorbox {
+#redbox {
 
- padding: 10px;
+  padding:10px;
+
+}
+
+#redbox > .col-2,#redbox > .col-8, #redbox .col-6 {
+
  background-color: red;
-
+ border: 1px solid white;
 
 }
